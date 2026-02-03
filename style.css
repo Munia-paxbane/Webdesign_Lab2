@@ -1,22 +1,30 @@
-h1 {
-    color:darkblue;
+h1{
+    color:lightcoral;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-h2 {
-    color:darkblue;
+h2{
+    color:lightcoral;
+    font-family: 'Courier New', Courier, monospace;
 }
+
 body{
+    justify-self: center;
     color:darkorange;
-    font-family: 'comicsans',;
+    font-family: "Comic Sans", Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 .cards {
-display:flex;
+justify-content: space-between;
+ display:flex;
 }
 
 div {   
-   display: inline;
    width:33%;
-}
+   font-style:normal;
+   }
 body{
     background-color: darkgreen;
+}
+div p{
+    color:whitesmoke;
 }
